@@ -1,0 +1,93 @@
+# Core AI & LangChain
+langchain==0.3.27
+langchain-openai==0.2.12
+langchain-google-genai==2.0.10
+
+# Google Gemini
+google-generativeai==0.8.5
+google-ai-generativelanguage==0.6.15
+
+# LLM / API
+openai
+python-dotenv
+
+# Voice I/O
+pyttsx3
+vosk
+SpeechRecognition
+gTTS
+playsound==1.2.2
+piper-tts  # Optional: high-quality offline neural voice (requires model files)
+# simpleaudio  # Not used, can remove if not needed
+# pydub        # Not used, can remove if not needed
+# TTS          # Not used, can remove if not needed
+# resemblyzer  # Not used, can remove if not needed
+
+# GUI
+pillow
+tk
+
+# Web tools
+requests
+beautifulsoup4
+lxml
+
+# System & Automation
+psutil
+pyautogui
+keyboard
+mouse
+
+# Time
+pytz
+
+# Office Tools
+python-docx
+python-pptx
+XlsxWriter
+openpyxl
+
+
+# Email & Google API
+google-api-python-client
+google-auth
+google-auth-oauthlib
+pyaudio
+indic-transliteration
+
+# Networking
+whois
+speedtest-cli
+
+
+# File System & Utilities
+# shutilwhich  # Not used, can remove if not needed
+# pyyaml       # Not used, can remove if not needed
+
+
+# Vision / OpenCV
+opencv-python
+numpy
+chromadb
+pigpio
+# Adafruit_DHT  # DEPRECATED: Old library with install issues. Use adafruit-circuitpython-dht instead (already listed below)
+adafruit-circuitpython-dht
+spidev
+# python-lirc  # Requires legacy CPython headers; optional and omitted by default
+
+# I2C LCD Display
+RPLCD
+smbus2
+
+# Security
+cryptography
+paramiko
+
+
+# Misc / Helper
+# rich      # Not used, can remove if not needed
+# tabulate  # Not used, can remove if not needed
+
+# optional helpers
+# urllib3   # Not used, can remove if not needed
+# certifi   # Not used, can remove if not needed
